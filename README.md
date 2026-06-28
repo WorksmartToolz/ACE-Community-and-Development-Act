@@ -167,11 +167,12 @@ ACE-Act/
 
 | Item | Status |
 |---|---|
-| ACE Act — 20 Titles | ✅ Complete — v1.0 |
-| Executive Summary | ✅ Complete — v1.0 |
-| Outreach Package (4 tiers) | ✅ Complete — v1.0 |
+| ACE Act | ✅ Complete — v1.1 |
+| Executive Summary | ✅ Complete — v1.1 |
+| Outreach Package (4 tiers) | ✅ Complete — v1.1 |
+| ACE Crest v2 | ✅ Complete — approved |
+| ACE Landing Page | ✅ Live — v7 |
 | Companion Legal Briefs (3) | 🔲 Forthcoming |
-| ACE Landing Page | 🔲 Forthcoming |
 | Founding Board | 🔲 Recruitment in progress |
 | First Tribal Partnership | 🔲 Engagement pending |
 
