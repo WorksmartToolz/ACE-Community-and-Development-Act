@@ -175,9 +175,10 @@ ACE-Community-and-Development-Act/
 | Executive Summary | v1.7 current |
 | Community Leader Engagement | v1.5 current |
 | BATEI Companion Legal Brief | v1.2 — internal legal folder |
+| Jurisdictional Sovereignty Brief | v1.0 — internal legal folder |
+| Pharmaceutical Review Board Brief | v1.0 — internal legal folder |
 | ACE Crest v2 | approved |
 | ACE Landing Page | v8.5 live |
-| Jurisdictional Sovereignty Brief | v1.0 — internal legal folder |
 | Founding Board | recruitment in progress |
 | First Tribal Partnership | engagement pending |
 
@@ -187,4 +188,4 @@ ACE-Community-and-Development-Act/
 *For Our People, By Our People.*
 
 ---
-*README v20 — June 29, 2026*
+*README v21 — June 29, 2026*
