@@ -33,7 +33,7 @@ ACE-Community-and-Development-Act/
 │   ├── Minister_Louis_Farrakhan_v1.9_2026-06.pdf
 │   └── Community_Ministry_Leaders_v1.9_2026-06.pdf
 ├── landing/
-│   ├── index_v8_10_2026-06.html
+│   ├── index_v8_11_2026-06.html
 │   ├── crest_v2_2026-06.svg
 │   └── crest_v2_2026-06.png
 ├── legal/
@@ -90,7 +90,7 @@ Three companion legal briefs pre-arguing ACE's most legally challengeable provis
 
 ## Landing Page
 
-Live at https://acecommunities.org (SSL confirmed). Current version: v8.10.
+Live at https://acecommunities.org (SSL confirmed). Current version: v8.11.
 
 Features: crest v2, "Why ACE Exists" section, role-tagged Get Involved form, document table with PDF links, share section, email capture routing to founders@ and info@ via submit.php.
 
@@ -120,6 +120,7 @@ Features: crest v2, "Why ACE Exists" section, role-tagged Get Involved form, doc
 | v21 | Pharmaceutical Review Board brief added |
 | v22 | Outreach Package v1.9 added: Founder's note, Why ACE Exists sections, Michelle Obama acknowledgment, individual one-pager PDFs |
 | v23 | ACE Act updated to v1.8: Title XXI (Tribal Partnership Contingency Framework) added; Executive Summary updated to v1.8 to reflect the contingency land claim alongside the tribal partnership track |
+| v24 | Landing page updated to v8.11: stats bar, Phase Two, and document table updated to reflect both the tribal partnership track and the contingency land claim; ACE Act and Executive Summary version references updated to v1.8 |
 
 ---
 
