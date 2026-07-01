@@ -41,7 +41,8 @@ ACE-Community-and-Development-Act/
 │   │   ├── ACE_BATEI_Legal_Brief_v1.2_2026-06.docx
 │   │   ├── ACE_Jurisdictional_Sovereignty_Brief_v1.0_2026-06.docx
 │   │   ├── ACE_Pharma_Review_Board_Brief_v1.0_2026-06.docx
-│   │   └── ACE_Title_XXI_Contingency_Brief_v1.0_2026-06.docx
+│   │   ├── ACE_Title_XXI_Contingency_Brief_v1.0_2026-06.docx
+│   │   └── ACE_UN_Submission_CERD_Reparations_v1.0_2026-06.docx
 │   ├── ACE_BATEI_Legal_Brief_v1.2_2026-06.pdf
 │   ├── ACE_Jurisdictional_Sovereignty_Brief_v1.0_2026-06.pdf
 │   ├── ACE_Pharma_Review_Board_Brief_v1.0_2026-06.pdf
@@ -88,6 +89,7 @@ Three companion legal briefs pre-arguing ACE's most legally challengeable provis
 | Jurisdictional Sovereignty Brief | v1.0 | Tribal land jurisdiction claims |
 | Pharmaceutical Review Board Brief | v1.0 | ACE Pharma Board authority |
 | Title XXI Contingency Brief | v1.0 | Tribal Partnership Contingency Framework: three anticipated challenges, Continuity Doctrine, ACE Sovereign Territory Act |
+| UN Submission — CERD Reparations | v1.0 | Standalone submission to CERD's General Recommendation process on reparations for chattel enslavement: seven sections, five specific requests, parallel Special Procedures track identified |
 
 ---
 
@@ -132,6 +134,7 @@ Features: crest v2, Why ACE Exists section, Contingency Framework section (paral
 | v30 | Executive Summary updated to v1.9: Human Rights Doctrine section added |
 | v31 | Landing page v8.15: Human Rights Doctrine section added in plain language with nav link and footer entry |
 | v32 | Landing page v8.16: Executive Summary document table and footer updated to v1.9 |
+| v33 | UN Submission document v1.0 added: standalone CERD submission on reparations for chattel enslavement, 10 pages, 7 sections, 5 specific requests to the Committee |
 
 ---
 
