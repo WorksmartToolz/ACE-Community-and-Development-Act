@@ -23,9 +23,11 @@ ACE-Community-and-Development-Act/
 ├── documents/
 │   ├── docx/                                         ← all .docx files live here
 │   │   ├── ACE_Act_v1.9_2026-06.docx
+│   │   ├── ACE_Founding_Position_v1.2_2026-06.docx
 │   │   ├── ACE_Executive_Summary_v1.9_2026-06.docx
 │   │   └── ACE_Outreach_Package_v1.9_2026-06.docx
 │   ├── ACE_Act_v1.9_2026-06.pdf                     ← only PDFs in root
+│   ├── ACE_Founding_Position_v1.2_2026-06.pdf
 │   ├── ACE_Executive_Summary_v1.9_2026-06.pdf
 │   ├── ACE_Outreach_Package_v1.9_2026-06.pdf
 │   ├── President_Barack_Obama_v1.9_2026-06.pdf
@@ -33,7 +35,7 @@ ACE-Community-and-Development-Act/
 │   ├── Minister_Louis_Farrakhan_v1.9_2026-06.pdf
 │   └── Community_Ministry_Leaders_v1.9_2026-06.pdf
 ├── landing/
-│   ├── index_v8_19_2026-06.html
+│   ├── index_v8_20_2026-06.html
 │   ├── crest_v2_2026-06.svg
 │   └── crest_v2_2026-06.png
 ├── legal/
@@ -48,6 +50,8 @@ ACE-Community-and-Development-Act/
 │   ├── ACE_Pharma_Review_Board_Brief_v1.0_2026-06.pdf
 │   └── ACE_Title_XXI_Contingency_Brief_v1.0_2026-06.pdf
 ├── active-versions/               ← latest version of every document, always current
+├── active-versions/               ← latest version of every document, always current
+│   └── ACE_Founding_Position_v1.2_2026-06.pdf (plus all other active PDFs)
 └── onepagers/
     ├── ACE_OnePager_Obama_Tier0_v1.1_2026-06.docx
     ├── ACE_OnePager_Tier1_Wealth_v1.0_2026-06.docx
@@ -96,7 +100,7 @@ Three companion legal briefs pre-arguing ACE's most legally challengeable provis
 
 ## Landing Page
 
-Live at https://acecommunities.org (SSL confirmed). Current version: v8.19.
+Live at https://acecommunities.org (SSL confirmed). Current version: v8.20.
 
 Features: crest v2, Why ACE Exists section, Contingency Framework section (parallel land claim track, two-track SWOT grid, Continuity Doctrine), role-tagged Get Involved form, document table with PDF links to v1.8 documents, footer with direct PDF links, share section, email capture routing to founders@ and info@ via submit.php.
 
@@ -143,6 +147,9 @@ Features: crest v2, Why ACE Exists section, Contingency Framework section (paral
 | v38 | Landing page v8.18: nav labels shortened (Why ACE Had to Be Built to Why ACE, What ACE is Building to What We Build, The Contingency Framework to The Contingency, The Human Rights Doctrine to Human Rights) |
 | v39 | Obama and Farrakhan letters updated to v2.1; active-versions folder created with latest version of every document |
 | v40 | Landing page v8.19: The Contingency section first paragraph updated to name both paths before referencing them; README v40 |
+| v41 | The Founding Position v1.2 added (docx + pdf): crest added to cover, Why ACE Is Arrival section fully revised with approved political/institutional argument |
+| v42 | Landing page v8.18: nav labels shortened across all sections |
+| v43 | Landing page v8.20: Maryland Doctrine exact quote bold italic, both threats named in why-close paragraph |
 
 ---
 
