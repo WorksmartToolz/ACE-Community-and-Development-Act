@@ -36,6 +36,7 @@ ACE-Community-and-Development-Act/
 │   └── Community_Ministry_Leaders_v1.9_2026-06.pdf
 ├── landing/
 │   ├── index_v8_24_2026-06.html
+│   ├── react_v1.0_2026-06.html
 │   ├── crest_v2_2026-06.svg
 │   └── crest_v2_2026-06.png
 ├── legal/
@@ -49,7 +50,11 @@ ACE-Community-and-Development-Act/
 │   ├── ACE_Jurisdictional_Sovereignty_Brief_v1.0_2026-06.pdf
 │   ├── ACE_Pharma_Review_Board_Brief_v1.0_2026-06.pdf
 │   └── ACE_Title_XXI_Contingency_Brief_v1.0_2026-06.pdf
+├── server/                        ← server-side PHP files
+│   └── submit_v1.1_2026-06.php      ← form handler: Get Involved routes to submissions.csv, React routes to reactions.csv
 ├── active-versions/               ← latest version of every document, always current
+├── server/                        ← server-side PHP files
+│   └── submit_v1.1_2026-06.php      ← form handler: Get Involved routes to submissions.csv, React routes to reactions.csv
 ├── active-versions/               ← latest version of every document, always current
 │   └── ACE_Founding_Position_v1.2_2026-06.pdf (plus all other active PDFs)
 └── onepagers/
