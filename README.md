@@ -22,22 +22,22 @@ ACE-Community-and-Development-Act/
 ├── ACE_CONTEXT.md
 ├── documents/
 │   ├── docx/                                         ← all .docx files live here
-│   │   ├── ACE_Act_v3.1_2026-06.docx
-│   │   ├── ACE_Founding_Position_v1.2_2026-06.docx
+│   │   ├── ACE_Community_and_Development_Act_v3.3_2026-06.docx
+│   │   ├── ACE_Founding_Position_v1.3_2026-06.docx
 │   │   ├── ACE_Executive_Summary_v2.1_2026-06.docx
-│   │   ├── ACE_Outreach_Package_v1.9_2026-06.docx
-│   │   ├── President_Barack_Obama_v3.1_2026-06.docx
-│   │   └── Minister_Louis_Farrakhan_v3.1_2026-06.docx
-│   ├── ACE_Act_v3.1_2026-06.pdf                     ← only PDFs in root
-│   ├── ACE_Founding_Position_v1.2_2026-06.pdf
+│   │   ├── ACE_Outreach_Package_v2.0_2026-06.docx
+│   │   ├── President_Barack_Obama_v3.2_2026-06.docx
+│   │   └── Minister_Louis_Farrakhan_v3.2_2026-06.docx
+│   ├── ACE_Community_and_Development_Act_v3.3_2026-06.pdf   ← only PDFs in root
+│   ├── ACE_Founding_Position_v1.3_2026-06.pdf
 │   ├── ACE_Executive_Summary_v2.1_2026-06.pdf
-│   ├── ACE_Outreach_Package_v1.9_2026-06.pdf
-│   ├── President_Barack_Obama_v3.1_2026-06.pdf
+│   ├── ACE_Outreach_Package_v2.0_2026-06.pdf
+│   ├── President_Barack_Obama_v3.2_2026-06.pdf
 │   ├── Investment_Proposal_v1.9_2026-06.pdf
-│   ├── Minister_Louis_Farrakhan_v3.1_2026-06.pdf
+│   ├── Minister_Louis_Farrakhan_v3.2_2026-06.pdf
 │   └── Community_Ministry_Leaders_v1.9_2026-06.pdf
 ├── landing/
-│   ├── index_v9_1_2026-06.html
+│   ├── index_v9_4_2026-06.html
 │   ├── react_v1.0_2026-06.html
 │   ├── crest_v2_2026-06.svg
 │   └── crest_v2_2026-06.png
@@ -46,20 +46,21 @@ ACE-Community-and-Development-Act/
 │   │   ├── ACE_BATEI_Legal_Brief_v1.2_2026-06.docx
 │   │   ├── ACE_Jurisdictional_Sovereignty_Brief_v1.0_2026-06.docx
 │   │   ├── ACE_Pharma_Review_Board_Brief_v1.0_2026-06.docx
-│   │   ├── ACE_Title_XXI_Contingency_Brief_v1.0_2026-06.docx
-│   │   └── ACE_UN_Submission_CERD_Reparations_v1.0_2026-06.docx
+│   │   ├── ACE_Title_XXI_Contingency_Brief_v1.3_2026-06.docx
+│   │   └── ACE_UN_Submission_CERD_Reparations_v1.1_2026-06.docx
 │   ├── ACE_BATEI_Legal_Brief_v1.2_2026-06.pdf
 │   ├── ACE_Jurisdictional_Sovereignty_Brief_v1.0_2026-06.pdf
 │   ├── ACE_Pharma_Review_Board_Brief_v1.0_2026-06.pdf
-│   └── ACE_Title_XXI_Contingency_Brief_v1.0_2026-06.pdf
+│   ├── ACE_Title_XXI_Contingency_Brief_v1.3_2026-06.pdf
+│   └── ACE_UN_Submission_CERD_Reparations_v1.1_2026-06.pdf
 ├── server/                        ← server-side PHP files
 │   └── submit_v1.1_2026-06.php      ← form handler: Get Involved routes to submissions.csv, React routes to reactions.csv
 ├── active-versions/               ← latest version of every document, always current
 │   └── (current PDFs only — see Current Versioning State in ACE_CONTEXT.md)
 └── onepagers/
-    ├── ACE_OnePager_Obama_Tier0_v1.1_2026-06.docx
+    ├── ACE_OnePager_Obama_Tier0_v1.0_2026-06.docx
     ├── ACE_OnePager_Tier1_Wealth_v1.0_2026-06.docx
-    ├── ACE_OnePager_Tier2_Ideology_v1.1_2026-06.docx
+    ├── ACE_OnePager_Tier2_Ideology_v1.0_2026-06.docx
     ├── ACE_OnePager_Tier3_Ministry_v1.0_2026-06.docx
     └── ACE_OnePager_Covers_v1.5_2026-06.pdf
 ```
@@ -68,28 +69,25 @@ ACE-Community-and-Development-Act/
 
 ## Core Documents
 
-### ACE Act v3.1
-The full legislative framework: 22 Titles, 1,659 paragraphs, 104 pages. Advanced from v1.9 through v3.1 (commits `978b409`, `793e4d9`, `21bb907`), adding Title XXI (ACE Sovereign Territory Act, 33.15 million acres across 10 BLM states) and Title XXII (Human Rights Doctrine). WHY ACE EXISTS renamed to WHY ACE HAD TO BE BUILT throughout, with the Maryland Doctrine of Exclusion (1638) opening the section in bold italics. Closing Provisions reordered; page numbering fixed. Title XXII establishes that the harms suffered by Black Americans constitute violations of international human rights law, not merely domestic civil rights law, grounding the argument in Dred Scott v. Sandford and coordinating with BATEI (Title XV) and the Tribal Partnership Contingency Framework (Title XXI) through a shared Continuity Doctrine.
+### ACE Act v3.3
+The full legislative framework: 22 Titles. Advanced from v1.9 through v3.3 across commits `978b409`, `793e4d9`, `21bb907` (v2.0–v3.1), and `5b040be` (v3.2–v3.3). Renamed from the old short filename convention (`ACE_Act_vX.X`) to the full `ACE_Community_and_Development_Act_vX.X` convention, matching the actual exported filenames and the live Hostinger production URL pattern. Adds Title XXI (ACE Sovereign Territory Act, 33.15 million acres across 10 BLM states) and Title XXII (Human Rights Doctrine). WHY ACE EXISTS renamed to WHY ACE HAD TO BE BUILT throughout, with the Maryland Doctrine of Exclusion (1638) opening the section in bold italics.
 
 ### ACE Executive Summary v2.1
-A condensed presentation of the full ACE vision, strategic logic, funding philosophy, and social contract for distribution to aligned stakeholders. Advanced from v1.9 to v2.1 (commit `8c456f3`): WHY ACE HAD TO BE BUILT renamed and reframed, Maryland Doctrine of 1638 added in bold italics, bridge paragraph added between opening and SWOT, 33.15 million acre contingency land claim added with full per-person derivation, SWOT closing updated with freedom, liberty, and justice framing. 214 paragraphs. References ACE Act v3.1.
+A condensed presentation of the full ACE vision, strategic logic, funding philosophy, and social contract for distribution to aligned stakeholders. Advanced from v1.9 to v2.1 (commit `8c456f3`): WHY ACE HAD TO BE BUILT renamed and reframed, Maryland Doctrine of 1638 added in bold italics, 33.15 million acre contingency land claim added with full per-person derivation. References ACE Act v3.3.
 
-### ACE Outreach Package v1.9
-The complete physical outreach package delivered by FedEx to priority targets across four tiers. Includes:
-- Founder's Note: "Why ACE Exists"
-- Tier 0: President Barack Obama (counselor approach, includes Michelle Obama acknowledgment)
-- Tier 1: Private Investment Proposal (Wealth at Scale)
-- Tier 2: For the Builders of Black Independence (Minister Louis Farrakhan)
-- Tier 3: Community Leader Engagement (Ministry Leaders)
+### ACE Founding Position v1.3
+Advanced from v1.2 (commit `5b040be`).
 
-Each tier includes a tailored "Why ACE Exists" section before its letter.
+### ACE Outreach Package v2.0
+The complete physical outreach package delivered by FedEx to priority targets across four tiers. Advanced from v1.9 to v2.0 (commit `b301f6b`, built in an earlier session but not actually pushed until this one):
+- Tier 0 (Obama) and Tier 2 (Farrakhan): fully replaced with the approved v3.1-era standalone letter content, restructured to salutation → intro → WHY ACE HAD TO BE BUILT → THE ASK → Supporting Legal Documentation → Direct Contact. "A NOTE FROM THE FOUNDER" heading removed. Legal brief citations inside these tiers corrected to Title XXI v1.3 and UN Submission v1.1 to match what's actually current.
+- Tier 1 (Investment Proposal) and Tier 3 (Community Ministry): mechanical sync only, per founder direction — WHY ACE EXISTS renamed to WHY ACE HAD TO BE BUILT with the Maryland Doctrine quote added, "20 Titles" and "constitutional framework we wrote ourselves" phrasing corrected. Persuasive copy and structure otherwise untouched; these two tiers still need their own full standalone-letter treatment (see Outstanding Items).
+- Package-wide version stamp bumped from v1.9 to v2.0 in all four mini-covers.
 
-**Status: superseded content, pending v3.x update.** This package still references the pre-v3.1 ACE Act and pre-v2.1 Executive Summary and has not yet been brought current. See Outstanding Items below.
+Note: an earlier attempt at this update added the Maryland Doctrine quote to Tier 0/Tier 2 and moved their version stamps backward from v3.1 to a package-wide v3.0; both were unauthorized changes caught and reverted before anything was pushed. The v2.0 described above is the corrected version.
 
-Individual one-pager PDFs are also available for each tier.
-
-### Obama Letter v3.1 and Farrakhan Letter v3.1
-Both finalized in commit `d14220b`: introductions added, structure reordered (salutation, then Why ACE Had to Be Built, then The Ask), tribal sovereignty and legal architecture language cleaned up. Obama letter removed "A NOTE FROM THE FOUNDER" heading; Farrakhan letter removed "YOU HAVE BEEN RIGHT" heading. Both reference ACE Act v3.1, 33.15 million acres, 1,600+ paragraphs. Both approved and pushed.
+### Obama Letter v3.2 and Farrakhan Letter v3.2
+Advanced from v3.1 to v3.2 (commit `5b040be`).
 
 ---
 
@@ -102,16 +100,18 @@ Three companion legal briefs pre-arguing ACE's most legally challengeable provis
 | BATEI Legal Brief | v1.2 | Black American Tax Equity Initiative |
 | Jurisdictional Sovereignty Brief | v1.0 | Tribal land jurisdiction claims |
 | Pharmaceutical Review Board Brief | v1.0 | ACE Pharma Board authority |
-| Title XXI Contingency Brief | v1.0 | Tribal Partnership Contingency Framework: three anticipated challenges, Continuity Doctrine, ACE Sovereign Territory Act. **Note: still references 10 million acres — needs updating to 33.15 million to match ACE Act v3.1.** |
-| UN Submission — CERD Reparations | v1.0 | Standalone submission to CERD's General Recommendation process on reparations for chattel enslavement: seven sections, five specific requests, parallel Special Procedures track identified |
+| Title XXI Contingency Brief | v1.3 | Tribal Partnership Contingency Framework: three anticipated challenges, Continuity Doctrine, ACE Sovereign Territory Act. Acreage updated from 10 million to 33.15 million throughout (commit `9495cad`) to match ACE Act v3.1+. Appendix B's per-state fraction-of-holdings claim corrected after the founder flagged an unauthorized reframing (the "small fraction" language was measuring against the wrong baseline). Section III adds the 2-billion-acre / 51-million-population comparison the founder requested, showing the 33.15M ask is under 2% of what full honor of the 1865 forty-acre promise would require at today's population. |
+| UN Submission — CERD Reparations | v1.1 | Standalone submission to CERD's General Recommendation process on reparations for chattel enslavement: seven sections, five specific requests, parallel Special Procedures track identified. Version stamp added to cover (commit `9aa00a8`); no content changes. Special Rapporteur citation (Ms. Ashwini K.P., HRC resolution 61/35) verified accurate and current against the live OHCHR site. |
 
 ---
 
 ## Landing Page
 
-Live at https://acecommunities.org (SSL confirmed). Current version: v9.1.
+Live at https://acecommunities.org (SSL confirmed). Current version: v9.4.
 
-Features: crest v2, Why ACE Had to Be Built section, Contingency Framework section (parallel land claim track, two-track SWOT grid, Continuity Doctrine), role-tagged Get Involved form, document table with PDF links to current documents (Founding Position v1.2, Executive Summary v2.1, ACE Act v3.1), footer with direct PDF links, share section, email capture routing to founders@ and info@ via submit.php.
+Features: crest v2, Why ACE Had to Be Built section, Contingency Framework section (parallel land claim track, two-track SWOT grid, Continuity Doctrine), role-tagged Get Involved form, document table with PDF links to current documents (Founding Position v1.3, Executive Summary v2.1, ACE Act v3.3), footer with direct PDF links, "React to the Plan" links (nav, document table CTA, footer — restored in v9.3 after being unintentionally dropped since v8.25), share section, email capture routing to founders@ and info@ via submit.php.
+
+**Note on GitHub Pages:** GitHub Pages was discovered enabled in the repository's own Settings, publicly serving repo contents at a github.io URL despite the repository being private (Pages visibility restriction requires GitHub Enterprise, which this repo does not have). The founder confirmed no collaborators besides themselves have ever had repo access, ruling out unauthorized access as the cause; this was most likely a setting toggled unintentionally at some point and never revisited. The site has been unpublished and the Pages source set to None, fully disabling it. This required no code changes and did not affect Hostinger, which remains the actual production host.
 
 ---
 
@@ -173,20 +173,25 @@ Features: crest v2, Why ACE Had to Be Built section, Contingency Framework secti
 | ~~v55~~ | *Drafted only — never pushed as standalone.* Content: Obama and Farrakhan letters at intermediate v3.0 (ACE Act v3.1 reference, 33.15M acres, 1,600+ paragraphs); active-versions cleanup. Fully superseded by v56 below, pushed in the same commit. |
 | v56 | **Commit `d14220b` — see note below.** Commit message states: Obama v3.1 and Farrakhan v3.1 letters finalized (introductions added, structure reordered, WHY ACE HAD TO BE BUILT reframed, headings removed); Farrakhan v2.2 docx added; active-versions cleaned to latest only. |
 | v57 | **This entry.** Verified against the actual repo: despite commit messages claiming README updates through v56, `git diff` against the live `README.md` on `main` showed **zero changes** from the v48 content above. This means README.md itself was never actually modified in commits `75cfcfe`, `ae5ef2d`, `06ed392`, `8c456f3`, `d14220b`, or `734ff51`, even though each commit message referenced a README version bump. The underlying document and landing page files referenced in those commits (ACE Act, Executive Summary, letters, landing page HTML) are separate files with their own real content diffs and were very likely genuinely updated as described; it is specifically this changelog file that silently failed to save five to six times in a row. This version log entry, and the file it lives in, is the first time the v49–v56 content has actually been written into README.md and pushed. Also folds in the active-versions/ cleanup from commit `734ff51`: superseded v1.9 outreach one-pagers (Outreach Package, Community Ministry Leaders, Investment Proposal) removed from active-versions/. |
+| v58 | Title XXI Contingency Brief v1.3 pushed (commit `9495cad`): acreage updated 10M → 33.15M throughout; Appendix B fraction-of-holdings claim corrected after founder flagged an unauthorized reframing; Section III adds the 2-billion-acre / 51-million-population comparison per founder request. |
+| v59 | UN Submission v1.1 pushed (commit `9aa00a8`): version stamp added to cover, no content changes. Verification pass confirmed the Special Rapporteur citation (Ashwini K.P., HRC resolution 61/35) accurate and current, and confirmed the Maryland 1638 edict quote was already correctly present (an initial automated check for the literal string "Maryland Doctrine" had incorrectly flagged this as missing — the substance was there, just not under that exact label). |
+| v60 | **First attempt failed.** Commit `7c0aef4` attempted to push Founding Position v1.3, Obama v3.2, Farrakhan v3.2, and ACE Act v3.2/v3.3, but every `cp` command failed silently due to wrong assumed Downloads filenames, while the accompanying `git rm` commands for the old versions succeeded. Result: Founding Position, Obama letter, and Farrakhan letter PDFs were missing entirely from `documents/` and `active-versions/` for a period, with only docx history intact. The same commit also accidentally added a broken `landing/index_v9_2_2026-06.html` pointing to a nonexistent ACE Act filename. **Repaired in commit `5b040be`** once real filenames were confirmed via `ls` on the actual Downloads folder: Founding Position v1.3, Obama v3.2, Farrakhan v3.2, ACE Act v3.2 and v3.3 all landed correctly. ACE Act also renamed from the old short `ACE_Act` filename convention to the full `ACE_Community_and_Development_Act` convention, matching the real exported filenames and the live Hostinger URL pattern. |
+| v61 | Landing page v9.3 (commit `edf9e01`): restored "React to the Plan" links (nav, document table CTA, footer) that were unintentionally dropped between v8.24 and v8.25 during the Session 10 rebuild, and had been missing from every version since, including the live v9.1. |
+| v62 | Landing page v9.4 (commit `d4fddc2`): document table and footer links corrected to point to ACE Act v3.3 and Founding Position v1.3, verified directly against a screenshot of the live Hostinger file listing rather than assumed. Two earlier guesses at the correct hosted URL pattern (with vs. without date suffix) were wrong before this was confirmed against the real listing. |
+| v63 | Outreach Package v2.0 pushed (commit `b301f6b`): had been built in an earlier session but never actually reached GitHub; confirmed missing via direct `git log` check and landed in this commit. Same commit removed the broken `landing/index_v9_2_2026-06.html` from v60. |
+| v64 | Corrected onepager filenames in the Repository Structure documentation to match the actual files on disk: Tier 0 and Tier 2 one-pagers are v1.0, not v1.1 as previously listed. |
+| v65 | **This entry.** GitHub Pages discovered enabled in repo Settings, publicly serving repo contents despite the repository being private; unpublished and source set to None. Repository Structure, Core Documents, Legal Briefs, and Landing Page sections all re-verified against the live repo (via direct clone) rather than assumed, and brought current: ACE Act v3.3, Executive Summary v2.1, Founding Position v1.3, Outreach Package v2.0, Obama and Farrakhan letters v3.2, Title XXI Contingency Brief v1.3, UN Submission v1.1, landing page v9.4. |
 
 ---
 
 ## Outstanding Items
 
-- Tier 1 outreach letter (wealth investors) — not yet drafted
-- Tier 3 outreach letter (community ministry leaders) — not yet drafted
+- Tier 1 outreach letter (wealth investors) — not yet drafted as a standalone letter (Outreach Package's Tier 1 section only mechanically synced, not rewritten)
+- Tier 3 outreach letter (community ministry leaders) — not yet drafted as a standalone letter (same as above)
 - African target outreach packages using the Founding Position — not yet started
-- Outreach Package needs update to v3.x to match ACE Act v3.1 and Executive Summary v2.1
-- UN submission document — standalone, last in A4 sequence — not yet complete
-- Title XXI Contingency Brief still references 10 million acres, needs updating to 33.15 million
 - Farrakhan v2.2 PDF not present in documents/ (docx was pushed in `d14220b`, PDF was not) — low priority, revisit only if needed
 - ACE Governing Charter — sequence-locked, cannot begin until 24 months post first Tribal Partnership Agreement
-- **Recommend a one-time verification pass**: confirm ACE Act v3.1, Executive Summary v2.1, and landing page v9.1 files in the repo actually contain the content their commit messages describe, given that README.md silently failed to save across multiple commits this session. A single `git show <hash>:<path> | head` per file would confirm this cheaply.
+- Consider disabling GitHub Pages permanently at the organization level, or periodically re-checking repo Settings → Pages, since it was found enabled with no clear record of who or what turned it on
 
 ---
 
