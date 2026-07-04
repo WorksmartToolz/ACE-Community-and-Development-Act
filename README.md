@@ -107,7 +107,7 @@ Three companion legal briefs pre-arguing ACE's most legally challengeable provis
 
 ## Landing Page
 
-Live at https://acecommunities.org (SSL confirmed). Current version: v9.4.
+Live at https://acecommunities.org (SSL confirmed). Current version: v9.5.
 
 Features: crest v2, Why ACE Had to Be Built section, Contingency Framework section (parallel land claim track, two-track SWOT grid, Continuity Doctrine), role-tagged Get Involved form, document table with PDF links to current documents (Founding Position v1.3, Executive Summary v2.1, ACE Act v3.3), footer with direct PDF links, "React to the Plan" links (nav, document table CTA, footer — restored in v9.3 after being unintentionally dropped since v8.25), share section, email capture routing to founders@ and info@ via submit.php.
 
@@ -182,6 +182,7 @@ Features: crest v2, Why ACE Had to Be Built section, Contingency Framework secti
 | v64 | Corrected onepager filenames in the Repository Structure documentation to match the actual files on disk: Tier 0 and Tier 2 one-pagers are v1.0, not v1.1 as previously listed. |
 | v65 | **This entry.** GitHub Pages discovered enabled in repo Settings, publicly serving repo contents despite the repository being private; unpublished and source set to None. Repository Structure, Core Documents, Legal Briefs, and Landing Page sections all re-verified against the live repo (via direct clone) rather than assumed, and brought current: ACE Act v3.3, Executive Summary v2.1, Founding Position v1.3, Outreach Package v2.0, Obama and Farrakhan letters v3.2, Title XXI Contingency Brief v1.3, UN Submission v1.1, landing page v9.4. |
 | v66 | Reworded the GitHub Pages line in Outstanding Items after founder flagged it as reading ambiguously — it had been listed alongside genuinely open tasks in a way that could look like the exposure was still active. Now explicitly states it's already resolved and the bullet is a standing reminder, not a pending task. |
+| v67 | ACE Act advanced to v3.4, Obama and Farrakhan letters to v3.3 (commits `6972fbc` and `99ea9b1`, the latter a repair after the first attempt's combined `git add` silently failed to stage any of the three documents when a not-yet-downloaded landing page file broke the same command). Final pre-delivery review pass on the ACE Act found and fixed a missing Title V section heading (content was present, only the heading itself had vanished) and six em dashes; the Obama letter had two stale legal brief version citations; the Farrakhan letter had those same stale citations plus a duplicated sentence spanning the THE ASK heading and a duplicated word ("land land"). Landing page advanced to v9.5, updated to link the new ACE Act v3.4. |
 
 ---
 
