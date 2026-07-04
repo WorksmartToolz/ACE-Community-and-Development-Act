@@ -181,6 +181,7 @@ Features: crest v2, Why ACE Had to Be Built section, Contingency Framework secti
 | v63 | Outreach Package v2.0 pushed (commit `b301f6b`): had been built in an earlier session but never actually reached GitHub; confirmed missing via direct `git log` check and landed in this commit. Same commit removed the broken `landing/index_v9_2_2026-06.html` from v60. |
 | v64 | Corrected onepager filenames in the Repository Structure documentation to match the actual files on disk: Tier 0 and Tier 2 one-pagers are v1.0, not v1.1 as previously listed. |
 | v65 | **This entry.** GitHub Pages discovered enabled in repo Settings, publicly serving repo contents despite the repository being private; unpublished and source set to None. Repository Structure, Core Documents, Legal Briefs, and Landing Page sections all re-verified against the live repo (via direct clone) rather than assumed, and brought current: ACE Act v3.3, Executive Summary v2.1, Founding Position v1.3, Outreach Package v2.0, Obama and Farrakhan letters v3.2, Title XXI Contingency Brief v1.3, UN Submission v1.1, landing page v9.4. |
+| v66 | Reworded the GitHub Pages line in Outstanding Items after founder flagged it as reading ambiguously — it had been listed alongside genuinely open tasks in a way that could look like the exposure was still active. Now explicitly states it's already resolved and the bullet is a standing reminder, not a pending task. |
 
 ---
 
@@ -191,7 +192,7 @@ Features: crest v2, Why ACE Had to Be Built section, Contingency Framework secti
 - African target outreach packages using the Founding Position — not yet started
 - Farrakhan v2.2 PDF not present in documents/ (docx was pushed in `d14220b`, PDF was not) — low priority, revisit only if needed
 - ACE Governing Charter — sequence-locked, cannot begin until 24 months post first Tribal Partnership Agreement
-- Consider disabling GitHub Pages permanently at the organization level, or periodically re-checking repo Settings → Pages, since it was found enabled with no clear record of who or what turned it on
+- **GitHub Pages exposure — already resolved, no action pending.** Discovered enabled and publicly serving repo contents despite the repo being private; unpublished and source set to None (see Landing Page section above and v65 in the version log). Listed here only as a standing reminder to glance at repo Settings → Pages occasionally going forward, not as an open task.
 
 ---
 
