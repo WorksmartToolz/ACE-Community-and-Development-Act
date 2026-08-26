@@ -22,23 +22,23 @@ ACE-Community-and-Development-Act/
 ├── ACE_CONTEXT.md
 ├── documents/
 │   ├── docx/                                         ← all .docx files live here
-│   │   ├── ACE_Community_and_Development_Act_v3.3_2026-06.docx
+│   │   ├── ACE_Community_and_Development_Act_v3_4_2026-06.docx
 │   │   ├── ACE_Founding_Position_v1.3_2026-06.docx
+│   │   ├── ACE_Reform_Was_the_Trap_v1_6_2026-06.docx
 │   │   ├── ACE_Executive_Summary_v2.1_2026-06.docx
-│   │   ├── ACE_Outreach_Package_v2.0_2026-06.docx
-│   │   ├── President_Barack_Obama_v3.2_2026-06.docx
-│   │   └── Minister_Louis_Farrakhan_v3.2_2026-06.docx
-│   ├── ACE_Community_and_Development_Act_v3.3_2026-06.pdf   ← only PDFs in root
+│   │   ├── ACE_Outreach_Package_v2_0_2026-06.docx
+│   │   ├── President_Barack_Obama_v3_3_2026-06.docx
+│   │   └── Minister_Louis_Farrakhan_v3_3_2026-06.docx
+│   ├── ACE_Community_and_Development_Act_v3_4_2026-06.pdf   ← only PDFs in root
 │   ├── ACE_Founding_Position_v1.3_2026-06.pdf
+│   ├── ACE_Reform_Was_the_Trap_v1_6_2026-06.pdf
 │   ├── ACE_Executive_Summary_v2.1_2026-06.pdf
-│   ├── ACE_Outreach_Package_v2.0_2026-06.pdf
-│   ├── President_Barack_Obama_v3.2_2026-06.pdf
-│   ├── Investment_Proposal_v1.9_2026-06.pdf
-│   ├── Minister_Louis_Farrakhan_v3.2_2026-06.pdf
-│   └── Community_Ministry_Leaders_v1.9_2026-06.pdf
+│   ├── ACE_Outreach_Package_v2_0_2026-06.pdf
+│   ├── President_Barack_Obama_v3_3_2026-06.pdf
+│   └── Minister_Louis_Farrakhan_v3_3_2026-06.pdf
 ├── landing/
-│   ├── index_v9_4_2026-06.html
-│   ├── react_v1.0_2026-06.html
+│   ├── index_v9_11_2026-06.html
+│   ├── react_v1_3_2026-06.html
 │   ├── crest_v2_2026-06.svg
 │   └── crest_v2_2026-06.png
 ├── legal/
@@ -54,7 +54,7 @@ ACE-Community-and-Development-Act/
 │   ├── ACE_Title_XXI_Contingency_Brief_v1.3_2026-06.pdf
 │   └── ACE_UN_Submission_CERD_Reparations_v1.1_2026-06.pdf
 ├── server/                        ← server-side PHP files
-│   └── submit_v1.1_2026-06.php      ← form handler: Get Involved routes to submissions.csv, React routes to reactions.csv
+│   └── submit_v1_3_2026-06.php      ← form handler: Get Involved routes to submissions.csv, React routes to reactions.csv (v1.3 adds ACE Act Access Request routing to founders@ and the open-ended Additional Thoughts field)
 ├── active-versions/               ← latest version of every document, always current
 │   └── (current PDFs only — see Current Versioning State in ACE_CONTEXT.md)
 └── onepagers/
@@ -69,14 +69,17 @@ ACE-Community-and-Development-Act/
 
 ## Core Documents
 
-### ACE Act v3.3
-The full legislative framework: 22 Titles. Advanced from v1.9 through v3.3 across commits `978b409`, `793e4d9`, `21bb907` (v2.0–v3.1), and `5b040be` (v3.2–v3.3). Renamed from the old short filename convention (`ACE_Act_vX.X`) to the full `ACE_Community_and_Development_Act_vX.X` convention, matching the actual exported filenames and the live Hostinger production URL pattern. Adds Title XXI (ACE Sovereign Territory Act, 33.15 million acres across 10 BLM states) and Title XXII (Human Rights Doctrine). WHY ACE EXISTS renamed to WHY ACE HAD TO BE BUILT throughout, with the Maryland Doctrine of Exclusion (1638) opening the section in bold italics.
+### ACE Act v3.4
+The full legislative framework: 22 Titles. Advanced from v1.9 through v3.3 across commits `978b409`, `793e4d9`, `21bb907` (v2.0–v3.1), and `5b040be` (v3.2–v3.3), then to v3.4 (commits `6972fbc`/`99ea9b1`) in the final pre-delivery review pass, which restored a missing Title V section heading (its content was present but the heading itself had vanished, causing the document to jump from Sec. 404 to Sec. 501 with no Title V banner) and removed six em dashes. Renamed from the old short filename convention (`ACE_Act_vX.X`) to the full `ACE_Community_and_Development_Act_vX.X` convention, matching the actual exported filenames and the live Hostinger production URL pattern. Adds Title XXI (ACE Sovereign Territory Act, 33.15 million acres across 10 BLM states) and Title XXII (Human Rights Doctrine). WHY ACE EXISTS renamed to WHY ACE HAD TO BE BUILT throughout, with the Maryland Doctrine of Exclusion (1638) opening the section in bold italics.
 
 ### ACE Executive Summary v2.1
-A condensed presentation of the full ACE vision, strategic logic, funding philosophy, and social contract for distribution to aligned stakeholders. Advanced from v1.9 to v2.1 (commit `8c456f3`): WHY ACE HAD TO BE BUILT renamed and reframed, Maryland Doctrine of 1638 added in bold italics, 33.15 million acre contingency land claim added with full per-person derivation. References ACE Act v3.3.
+A condensed presentation of the full ACE vision, strategic logic, funding philosophy, and social contract for distribution to aligned stakeholders. Advanced from v1.9 to v2.1 (commit `8c456f3`): WHY ACE HAD TO BE BUILT renamed and reframed, Maryland Doctrine of 1638 added in bold italics, 33.15 million acre contingency land claim added with full per-person derivation. References ACE Act v3.4.
 
 ### ACE Founding Position v1.3
 Advanced from v1.2 (commit `5b040be`).
+
+### Reform Was the Trap v1.6
+Public-awareness companion document (commit `9896ade`), added as a shorter, shareable counterpart to the 100+ page ACE Act. Titled "Reform Was the Trap" with subtitle "The Case for Building." Opens on a "What Lies Beneath" section anchored to the persistence of Black America's condition since Bloody Sunday at Selma, then argues three principles: a system designed to exclude cannot be reformed into one that includes; the architecture of Black subordination is a structure to escape, not an oversight to correct; and the path to dignity is the construction of new institutions built by Black people for Black people. Includes the framework's canonical hearts-and-law passage ("The law can change. The man holding the law does not have to.") and an evergreen, un-named critique of "return to greatness" rhetoric. Written in the Founding Position's declarative voice, no em dashes, crest on cover (white-paper brown-banner treatment), 5 pages. Points readers to the Founding Position for the deeper historical foundation. Version history within the working session: v1.0 draft, v1.1 crest and opening heading, v1.2 title, v1.3 hearts/law passage, v1.4 greatness-for-whom passage, v1.5 rewritten opening, v1.6 Selma anchor and "What Lies Beneath" heading (the version pushed).
 
 ### ACE Outreach Package v2.0
 The complete physical outreach package delivered by FedEx to priority targets across four tiers. Advanced from v1.9 to v2.0 (commit `b301f6b`, built in an earlier session but not actually pushed until this one):
@@ -86,8 +89,8 @@ The complete physical outreach package delivered by FedEx to priority targets ac
 
 Note: an earlier attempt at this update added the Maryland Doctrine quote to Tier 0/Tier 2 and moved their version stamps backward from v3.1 to a package-wide v3.0; both were unauthorized changes caught and reverted before anything was pushed. The v2.0 described above is the corrected version.
 
-### Obama Letter v3.2 and Farrakhan Letter v3.2
-Advanced from v3.1 to v3.2 (commit `5b040be`).
+### Obama Letter v3.3 and Farrakhan Letter v3.3
+Advanced from v3.1 to v3.2 (commit `5b040be`), then to v3.3 (commits `6972fbc`/`99ea9b1`) in the final pre-delivery review pass: both letters had two stale legal brief citations corrected (Companion Legal Brief to v1.3, UN Submission CERD to v1.1) and a double-space typo fixed. The Farrakhan letter additionally had a duplicated sentence removed (the "we are not asking you to become ACE" line appeared twice straddling the THE ASK heading) and a duplicated word fixed ("tribal sovereign land land").
 
 ---
 
@@ -107,9 +110,11 @@ Three companion legal briefs pre-arguing ACE's most legally challengeable provis
 
 ## Landing Page
 
-Live at https://acecommunities.org (SSL confirmed). Current version: v9.5.
+Live at https://acecommunities.org (SSL confirmed). Current version: v9.11.
 
-Features: crest v2, Why ACE Had to Be Built section, Contingency Framework section (parallel land claim track, two-track SWOT grid, Continuity Doctrine), role-tagged Get Involved form, document table with PDF links to current documents (Founding Position v1.3, Executive Summary v2.1, ACE Act v3.3), footer with direct PDF links, "React to the Plan" links (nav, document table CTA, footer — restored in v9.3 after being unintentionally dropped since v8.25), share section, email capture routing to founders@ and info@ via submit.php.
+Features: crest v2, Why ACE Had to Be Built section, Contingency Framework section (parallel land claim track, two-track SWOT grid, Continuity Doctrine), role-tagged Get Involved form, document table with PDF links to current public documents (Founding Position v1.3, Executive Summary v2.1), footer with direct PDF links, "React to the Plan" links (nav, document table CTA, footer), share section, email capture routing to founders@ and info@ via submit.php v1.3. The ACE Act was pulled from public download (v9.6): its document-table row now shows an "Internal" badge and a "Request Access" button that routes through the working signup form (data-role "ACE Act Access Request"), tagged to founders@ priority routing, with a specific confirmation message and a submit button that changes to "Request the ACE Act" on that path. The document table stacks into full-width cards below 600px for mobile (v9.10). The duplicate ACE Act text link was removed from the nav, leaving only the button (v9.11).
+
+The standalone React feedback page (`react_v1_3_2026-06.html`, live at /react) had its three stale hero doc-buttons removed and an open-ended "Anything else on your mind?" free-text field added (v1.2), then had a phone number removed from its footer that had been present since creation in violation of the standing rule that the number appears only in the two private outreach letters (v1.3).
 
 **Note on GitHub Pages:** GitHub Pages was discovered enabled in the repository's own Settings, publicly serving repo contents at a github.io URL despite the repository being private (Pages visibility restriction requires GitHub Enterprise, which this repo does not have). The founder confirmed no collaborators besides themselves have ever had repo access, ruling out unauthorized access as the cause; this was most likely a setting toggled unintentionally at some point and never revisited. The site has been unpublished and the Pages source set to None, fully disabling it. This required no code changes and did not affect Hostinger, which remains the actual production host.
 
@@ -183,6 +188,12 @@ Features: crest v2, Why ACE Had to Be Built section, Contingency Framework secti
 | v65 | **This entry.** GitHub Pages discovered enabled in repo Settings, publicly serving repo contents despite the repository being private; unpublished and source set to None. Repository Structure, Core Documents, Legal Briefs, and Landing Page sections all re-verified against the live repo (via direct clone) rather than assumed, and brought current: ACE Act v3.3, Executive Summary v2.1, Founding Position v1.3, Outreach Package v2.0, Obama and Farrakhan letters v3.2, Title XXI Contingency Brief v1.3, UN Submission v1.1, landing page v9.4. |
 | v66 | Reworded the GitHub Pages line in Outstanding Items after founder flagged it as reading ambiguously — it had been listed alongside genuinely open tasks in a way that could look like the exposure was still active. Now explicitly states it's already resolved and the bullet is a standing reminder, not a pending task. |
 | v67 | ACE Act advanced to v3.4, Obama and Farrakhan letters to v3.3 (commits `6972fbc` and `99ea9b1`, the latter a repair after the first attempt's combined `git add` silently failed to stage any of the three documents when a not-yet-downloaded landing page file broke the same command). Final pre-delivery review pass on the ACE Act found and fixed a missing Title V section heading (content was present, only the heading itself had vanished) and six em dashes; the Obama letter had two stale legal brief version citations; the Farrakhan letter had those same stale citations plus a duplicated sentence spanning the THE ASK heading and a duplicated word ("land land"). Landing page advanced to v9.5, updated to link the new ACE Act v3.4. |
+| v68 | Landing page v9.6–v9.8 (commits `9f067cd`, `d148548`, `64122bc`): ACE Act pulled from public download per founder decision that full public exposure is premature. Document-table row changed to an "Internal" badge plus a "Request Access" button; the contradictory "published openly / free to fork" section text was corrected. The Request Access flow was first built as a mailto link, which silently failed for visitors with no default mail client configured, then rerouted through the existing signup form using a data-role tag so it uses proven infrastructure. submit.php advanced to v1.2 to route "ACE Act Access Request" submissions to founders@ instead of the general info@ inbox, and the confirmation message was made specific to the request. |
+| v69 | Landing page v9.9–v9.11 (commits `a0e0cdf`, `1fd9caf`, `3ece9a1`): submit button text now changes to "Request the ACE Act" when the form is reached via the Request Access link and resets after submission; the document table stacks into full-width cards below 600px so its buttons no longer run off-screen on mobile; the duplicate "The ACE Act" text link was removed from the nav, leaving only the button. |
+| v70 | React feedback page advanced to v1.2 and submit.php to v1.3 (commit `3ece9a1`): the three stale hero doc-buttons (Founding Position, Executive Summary, ACE Act, all pointing at old versions, the last contradicting the ACE Act public-download pull) were removed, and an open-ended "Anything else on your mind?" free-text field was added so respondents can leave unprompted thoughts. submit.php v1.3 wires that field through to both the notification email and the reactions.csv log. |
+| v71 | Phone number 951-323-7942 removed from the React page footer across every tracked version (commits `9f3fad2`, `cb6f8ef`). It had been present since the page's creation, in violation of the standing rule that the number appears only in the two private outreach letters. The live site had already been serving the corrected v1.3 with the number removed; these commits closed the gap in the repo's own tracked files (v1.0, v1.1, and v1_2). A full repo sweep confirmed zero remaining occurrences except this changelog and the two intentional historical entries (v36, v37) documenting the number's correct placement in the letters. A permanent memory rule was added to check for this number on any public-facing file going forward. |
+| v72 | Reform Was the Trap v1.6 added (commit `9896ade`): public-awareness companion document, docx source in `documents/docx/`, PDF in `documents/` and `active-versions/`. Files copied from the founder's E: drive Communication Package folder (mounted in WSL) after the standard Downloads flow came up empty, and renamed from the presentation name "1. Reform Was the Trap.pdf" to the clean versioned convention during copy. All three files verified present at correct sizes before staging and confirmed in the remote via fresh clone after push. |
+| v73 | **This entry.** Full reconciliation pass after founder direction to never let documentation fall behind. Landing Page section brought current to v9.11 (was v9.5) with all v9.6–v9.11 changes, submit.php v1.3, and react page v1.2/v1.3 documented. Reform Was the Trap v1.6 added to Core Documents. Obama and Farrakhan letter headings corrected from v3.2 to v3.3. Repository Structure refreshed. Version log entries v68–v73 added. All verified against a fresh clone of the actual remote rather than assumed. |
 
 ---
 
