@@ -24,21 +24,21 @@ ACE-Community-and-Development-Act/
 │   ├── docx/                                         ← all .docx files live here
 │   │   ├── ACE_Community_and_Development_Act_v3_4_2026-06.docx
 │   │   ├── ACE_Founding_Position_v1.3_2026-06.docx
-│   │   ├── ACE_Reform_Was_the_Trap_v1_6_2026-06.docx
+│   │   ├── ACE_Reform_Was_the_Trap_v1_17_2026-06.docx
 │   │   ├── ACE_Executive_Summary_v2.1_2026-06.docx
 │   │   ├── ACE_Outreach_Package_v2_0_2026-06.docx
 │   │   ├── President_Barack_Obama_v3_3_2026-06.docx
 │   │   └── Minister_Louis_Farrakhan_v3_3_2026-06.docx
 │   ├── ACE_Community_and_Development_Act_v3_4_2026-06.pdf   ← only PDFs in root
 │   ├── ACE_Founding_Position_v1.3_2026-06.pdf
-│   ├── ACE_Reform_Was_the_Trap_v1_6_2026-06.pdf
+│   ├── ACE_Reform_Was_the_Trap_v1_17_2026-06.pdf
 │   ├── ACE_Executive_Summary_v2.1_2026-06.pdf
 │   ├── ACE_Outreach_Package_v2_0_2026-06.pdf
 │   ├── President_Barack_Obama_v3_3_2026-06.pdf
 │   └── Minister_Louis_Farrakhan_v3_3_2026-06.pdf
 ├── landing/
-│   ├── index_v9_11_2026-06.html
-│   ├── react_v1_3_2026-06.html
+│   ├── index_v9_14_2026-06.html
+│   ├── react_v1_4_2026-06.html
 │   ├── crest_v2_2026-06.svg
 │   └── crest_v2_2026-06.png
 ├── legal/
@@ -55,6 +55,16 @@ ACE-Community-and-Development-Act/
 │   └── ACE_UN_Submission_CERD_Reparations_v1.1_2026-06.pdf
 ├── server/                        ← server-side PHP files
 │   └── submit_v1_3_2026-06.php      ← form handler: Get Involved routes to submissions.csv, React routes to reactions.csv (v1.3 adds ACE Act Access Request routing to founders@ and the open-ended Additional Thoughts field)
+├── outreach/                      ← short targeted-outreach packets (pitch, not deep docs)
+│   ├── docx/
+│   │   ├── ACE_Media_Outreach_v1_3_2026-08.docx
+│   │   └── ACE_Venture_Briefing_v1_0_2026-08.docx
+│   ├── ACE_Media_Outreach_v1_3_2026-08.pdf
+│   └── ACE_Venture_Briefing_v1_0_2026-08.pdf
+├── internal/                      ← private, not-for-distribution founder documents
+│   ├── docx/
+│   │   └── ACE_Founders_Briefing_v1_0_2026-08.docx
+│   └── ACE_Founders_Briefing_v1_0_2026-08.pdf
 ├── active-versions/               ← latest version of every document, always current
 │   └── (current PDFs only — see Current Versioning State in ACE_CONTEXT.md)
 └── onepagers/
@@ -78,8 +88,17 @@ A condensed presentation of the full ACE vision, strategic logic, funding philos
 ### ACE Founding Position v1.3
 Advanced from v1.2 (commit `5b040be`).
 
-### Reform Was the Trap v1.6
-Public-awareness companion document (commit `9896ade`), added as a shorter, shareable counterpart to the 100+ page ACE Act. Titled "Reform Was the Trap" with subtitle "The Case for Building." Opens on a "What Lies Beneath" section anchored to the persistence of Black America's condition since Bloody Sunday at Selma, then argues three principles: a system designed to exclude cannot be reformed into one that includes; the architecture of Black subordination is a structure to escape, not an oversight to correct; and the path to dignity is the construction of new institutions built by Black people for Black people. Includes the framework's canonical hearts-and-law passage ("The law can change. The man holding the law does not have to.") and an evergreen, un-named critique of "return to greatness" rhetoric. Written in the Founding Position's declarative voice, no em dashes, crest on cover (white-paper brown-banner treatment), 5 pages. Points readers to the Founding Position for the deeper historical foundation. Version history within the working session: v1.0 draft, v1.1 crest and opening heading, v1.2 title, v1.3 hearts/law passage, v1.4 greatness-for-whom passage, v1.5 rewritten opening, v1.6 Selma anchor and "What Lies Beneath" heading (the version pushed).
+### Reform Was the Trap v1.17
+Public-awareness companion document (current commit `d261b15`; debut `9896ade`), a shorter, shareable counterpart to the 100+ page ACE Act. Titled "Reform Was the Trap" with subtitle "The Case for Building." Opens on a "What Lies Beneath" section anchored to the persistence of Black America's condition since Bloody Sunday at Selma, reframes the struggle around a problem "we have fundamentally misidentified," then argues three principles: a system designed to exclude cannot be reformed into one that includes; the architecture of Black subordination is a structure to escape, not an oversight to correct; and the path to dignity is the construction of new institutions built by Black people for Black people. Section I now answers the electoral-participation counterargument ("more of us at the table does not give us control of the menu"; the office constrains, the machinery absorbs, even a committed collective is contained). Section II carries the canonical hearts-and-law passage, the "Only the name of the machinery of exclusion changed. The function did not." line, the Special Field Order No. 15 arithmetic (400,000 acres, ~1% of freed families at the full 40 acres, revoked the same year, "too small to be anything but a pacifier," set up by "Every promise this country made to Black America, it made without meaning to keep"), and the evergreen, un-named critique of "return to greatness" rhetoric ("there is no year behind us worth returning to"). Written in the Founding Position's declarative voice, no em dashes, crest on cover (white-paper brown-banner), 6 pages. Points readers to the Founding Position for the deeper historical foundation. Advanced v1.6 (pushed and taken live) through v1.17 across the working session: the Field Order 15 passage (v1.7, the version that was live on the site), then the misidentified-problem opening reframe, the Section I table/menu passage, the machinery-of-exclusion and Field Order 15 thesis lines, the "restored"/"deliberate architecture"/"no year behind us worth returning to" refinements, and the door-image and paragraph-order fixes (v1.8 through v1.17). v1.17 is the current pushed and live version.
+
+### Media Outreach Packet v1.3
+Short targeted-outreach pitch (commit `d261b15`, `outreach/`) for influencers and media hosts (Club Shay Shay, The Breakfast Club, and similar). Titled "A Conversation Worth Starting." Provocative, quotable register: opens on "what if the system was never broken?", names why the host's platform matters, lists what makes ACE worth a segment, and asks for one thing only, a conversation, never money or endorsement. Distinct from the deep documents by design: it is meant to intrigue a cold reader in ninety seconds, not to educate. Crest on cover, no em dashes, 3 pages, founder's direct line and founders@ in the contact block (an approved exception to the phone-number rule, as controlled outreach). Opening line iterated to the "Spoiler alert, the American dream and its promises were never written to include people of color" reframe (v1.3).
+
+### Venture Briefing Packet v1.0
+Short targeted-outreach pitch (commit `d261b15`, `outreach/`) for high-net-worth capital principals (Robert F. Smith, Aliko Dangote, Alexander Karp, David Steward, and others). Titled "An Invitation to Build." Restrained, serious register: "The Premise," "What ACE Is," "Why This Is Different From What You Have Been Shown," and reframes the recipient from donor to founding partner ("outside capital enters as founding partnership in something historic, not a donation to a cause"). Notes the full Act is available on request rather than enclosing it. Asks only for a conversation. Crest on cover, no em dashes, 3 pages, founder's direct line and founders@ in the contact block (approved controlled-outreach exception).
+
+### Founder's Briefing v1.0 (internal / not for distribution)
+Private study document (commit `d261b15`, `internal/`), written for the founder alone, never to be sent. Titled "The Founder's Briefing: Speaking From the Idea." Purpose: fluency, so the founder can speak from the idea rather than from emotion or reaction to opposition. Seven parts: the core thesis (30-second, 2-minute, and deep versions); facts to know cold (Field Order 15 math, the 33.15M-acre derivation, the two-peoples logic, the four-phase timeline); "The Money, In Your Bones" (the crucial distinction between the $50B as Phase-4 annual economic output versus the modest layered startup funding model, with real GDP comparisons to defend the figure); the hard questions and grounded answers (separatism, why-not-reform/vote, legality, where's-the-money, Native partnership, Black Wall Street, citizenship); the layered contingency architecture (Title XXI land contingency as layer one, the mission-level nonprofit contingency as layer two, held in reserve, never led with); the philosophical ground; and holding the line (delivery discipline). Drawn entirely from and reconciled against the existing ACE documents. 13 pages, no em dashes, crest on cover.
 
 ### ACE Outreach Package v2.0
 The complete physical outreach package delivered by FedEx to priority targets across four tiers. Advanced from v1.9 to v2.0 (commit `b301f6b`, built in an earlier session but not actually pushed until this one):
@@ -110,11 +129,13 @@ Three companion legal briefs pre-arguing ACE's most legally challengeable provis
 
 ## Landing Page
 
-Live at https://acecommunities.org (SSL confirmed). Current version: v9.11.
+Live at https://acecommunities.org (SSL confirmed). Current version: v9.14.
 
 Features: crest v2, Why ACE Had to Be Built section, Contingency Framework section (parallel land claim track, two-track SWOT grid, Continuity Doctrine), role-tagged Get Involved form, document table with PDF links to current public documents (Founding Position v1.3, Executive Summary v2.1), footer with direct PDF links, "React to the Plan" links (nav, document table CTA, footer), share section, email capture routing to founders@ and info@ via submit.php v1.3. The ACE Act was pulled from public download (v9.6): its document-table row now shows an "Internal" badge and a "Request Access" button that routes through the working signup form (data-role "ACE Act Access Request"), tagged to founders@ priority routing, with a specific confirmation message and a submit button that changes to "Request the ACE Act" on that path. The document table stacks into full-width cards below 600px for mobile (v9.10). The duplicate ACE Act text link was removed from the nav, leaving only the button (v9.11).
 
-The standalone React feedback page (`react_v1_3_2026-06.html`, live at /react) had its three stale hero doc-buttons removed and an open-ended "Anything else on your mind?" free-text field added (v1.2), then had a phone number removed from its footer that had been present since creation in violation of the standing rule that the number appears only in the two private outreach letters (v1.3).
+The standalone React feedback page (`react_v1_4_2026-06.html`, live at /react) had its three stale hero doc-buttons removed and an open-ended "Anything else on your mind?" free-text field added (v1.2), then had a phone number removed from its footer that had been present since creation in violation of the standing rule that the number appears only in the two private outreach letters (v1.3), then had its "Which document did you read?" dropdown updated to remove "The ACE Act" (no longer public) and add "Reform Was the Trap" (v1.4).
+
+Landing page changes v9.12 through v9.14: "Reform Was the Trap" was added to the document table and footer as a public "Open PDF" row (v9.12); the table and footer were reordered to the final reading staircase of Reform Was the Trap, The Founding Position, Executive Summary, then the ACE Act (v9.13); and the Reform Was the Trap links were bumped from v1.6 to v1.7, then to v1.17, as the live document advanced (v9.14 links to v1.17). The Reform Was the Trap PDF is hosted at `acecommunities.org/docs/ACE_Reform_Was_the_Trap_v1_17_2026-06.pdf` (a `.pdf.pdf` double-extension upload artifact was caught and corrected during hosting, the same class of bug seen in prior sessions).
 
 **Note on GitHub Pages:** GitHub Pages was discovered enabled in the repository's own Settings, publicly serving repo contents at a github.io URL despite the repository being private (Pages visibility restriction requires GitHub Enterprise, which this repo does not have). The founder confirmed no collaborators besides themselves have ever had repo access, ruling out unauthorized access as the cause; this was most likely a setting toggled unintentionally at some point and never revisited. The site has been unpublished and the Pages source set to None, fully disabling it. This required no code changes and did not affect Hostinger, which remains the actual production host.
 
@@ -193,7 +214,9 @@ The standalone React feedback page (`react_v1_3_2026-06.html`, live at /react) h
 | v70 | React feedback page advanced to v1.2 and submit.php to v1.3 (commit `3ece9a1`): the three stale hero doc-buttons (Founding Position, Executive Summary, ACE Act, all pointing at old versions, the last contradicting the ACE Act public-download pull) were removed, and an open-ended "Anything else on your mind?" free-text field was added so respondents can leave unprompted thoughts. submit.php v1.3 wires that field through to both the notification email and the reactions.csv log. |
 | v71 | Phone number 951-323-7942 removed from the React page footer across every tracked version (commits `9f3fad2`, `cb6f8ef`). It had been present since the page's creation, in violation of the standing rule that the number appears only in the two private outreach letters. The live site had already been serving the corrected v1.3 with the number removed; these commits closed the gap in the repo's own tracked files (v1.0, v1.1, and v1_2). A full repo sweep confirmed zero remaining occurrences except this changelog and the two intentional historical entries (v36, v37) documenting the number's correct placement in the letters. A permanent memory rule was added to check for this number on any public-facing file going forward. |
 | v72 | Reform Was the Trap v1.6 added (commit `9896ade`): public-awareness companion document, docx source in `documents/docx/`, PDF in `documents/` and `active-versions/`. Files copied from the founder's E: drive Communication Package folder (mounted in WSL) after the standard Downloads flow came up empty, and renamed from the presentation name "1. Reform Was the Trap.pdf" to the clean versioned convention during copy. All three files verified present at correct sizes before staging and confirmed in the remote via fresh clone after push. |
-| v73 | **This entry.** Full reconciliation pass after founder direction to never let documentation fall behind. Landing Page section brought current to v9.11 (was v9.5) with all v9.6–v9.11 changes, submit.php v1.3, and react page v1.2/v1.3 documented. Reform Was the Trap v1.6 added to Core Documents. Obama and Farrakhan letter headings corrected from v3.2 to v3.3. Repository Structure refreshed. Version log entries v68–v73 added. All verified against a fresh clone of the actual remote rather than assumed. |
+| v73 | **Full reconciliation pass** after founder direction to never let documentation fall behind. Landing Page section brought current to v9.11 (was v9.5) with all v9.6–v9.11 changes, submit.php v1.3, and react page v1.2/v1.3 documented. Reform Was the Trap v1.6 added to Core Documents. Obama and Farrakhan letter headings corrected from v3.2 to v3.3. Repository Structure refreshed. Version log entries v68–v73 added. All verified against a fresh clone of the actual remote rather than assumed. |
+| v74 | Reform Was the Trap advanced from v1.6 to v1.17 and taken live; landing page advanced v9.11 to v9.14; react page to v1.4 (commits `1a2f2c8`, `05c6079`, `75d29b9`, `2bd2683`, `d261b15`). Reform gained the Field Order 15 passage (v1.7, which went live), then a long line-level pass: the "we fundamentally misidentified the problem" opening reframe, the Section I electoral "table/menu" passage answering the get-our-people-in-office argument, the machinery-of-exclusion line, the "Every promise this country made to Black America" Field Order 15 thesis, the "restored" (not "rebuilt") and "deliberate architecture" and "no year behind us worth returning to" fixes, and the door-image re-anchor and paragraph-order corrections (v1.8–v1.17). Landing document table gained a Reform row and was reordered to the reading staircase (Reform, Founding Position, Executive Summary, ACE Act); react dropdown dropped the ACE Act and added Reform. Reform PDF hosted on Hostinger (a `.pdf.pdf` double-extension artifact was caught and fixed). |
+| v75 | **This entry.** Two new outreach packets and one private study document added (commit `d261b15`), plus full README reconciliation. New `outreach/` folder holds the Media Outreach packet v1.3 ("A Conversation Worth Starting," for influencers) and the Venture Briefing packet v1.0 ("An Invitation to Build," for capital principals), both ending only in a request for a conversation, both carrying the founder's direct line as an approved controlled-outreach exception to the phone-number rule. New `internal/` folder holds the private, not-for-distribution Founder's Briefing v1.0 ("Speaking From the Idea"), a 13-page mastery document covering the core thesis, facts to know cold, the $50B-output-versus-funding-model distinction, the hard questions, the layered contingency architecture (Title XXI land contingency plus the new mission-level nonprofit contingency), the philosophical ground, and delivery discipline. README brought current: Reform to v1.17, landing to v9.14, react to v1.4, Core Documents entries added for all three new documents, repository structure updated with the two new folders, version log entries v74–v75 added. All verified against a fresh clone of the actual remote. |
 
 ---
 
